@@ -1,3 +1,10 @@
+import Link from "next/link";
+
 export default function Blogs() {
-  return <h1>Blogs</h1>;
+  return (
+    <>
+      <Link href="/">Home</Link>
+      <h1>Blogs</h1>
+    </>
+  );
 }
